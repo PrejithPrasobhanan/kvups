@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#fff;
+}
+a{
+    text-decoration: none;
+}
+.phone a{
+    color: #fff;
+    margin-right: 300px;
+}
+.hh{
+    background-color: #7eb244;
+    border-radius: 5px;
+    
+    
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    
+    background: linear-gradient(to right, #7eb244, #43C6AC);
+    
+    
+}
+.gphoto1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+nav ul li a{
+    color: #43434f;
+}
+
+.phone{
+    display: inline;
+    text-align: center;
+    width: 673px;
+  
+}
+.phone img{
+    max-width: 40px;
+    max-height: 30px;
+    padding-top: 15px;
+}
+.fgicon .facebook{
+    max-width: 80px;
+    max-height: 30px;
+    padding-top: 15px;
+
+}
+nav ul li{
+    margin: 15px;
+}
+
+.google{
+    max-width: 40px;
+    max-height: 30px;
+    padding-top: 15px;
+}
+.fgicon{
+    display: inline;
+    text-align: center;
+    margin-right: 110px;
+
+    
+}
+.phone a{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 20px rgba(189, 177, 205, 0.2);
+    backdrop-filter: blur(20px);
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 0;
+}
+ nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 164px;
+
+    
+ }
+
+nav ul li{
+    margin-right: 35px;
+    
+    
+    
+}
+nav ul li:last-child{
+    margin-right: 0;
+}
+.systext{
+    color: white;
+    text-align: center;
+    background-image: url(./images/inner-spotlight-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.systext h1{
+    padding-top: 170px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.kvups{
+    margin-left: 100px;
+    color: #7eb244;
+}
+.acimg img{
+    width: 200px;
+}
+.a1 p{
+    width: 400px;
+    color: rgb(54, 54, 54);
+}
+a1{
+    /* margin: 15px auto; */
+}
+
+.achivements{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: -moz-center;
+    margin: 55px auto;
+    
+}
+#hh1{
+    padding: 4px;
+}
+.acimg{
+    background-color: rgb(204, 203, 203);
+    display: flex;
+    width: 403px;
+    
+}
+.achivements p{
+    text-align: justify;
+   
+   
+}
+
+.topfooter{
+    background: linear-gradient(to right, #7eb244, #43C6AC);
+    padding: 60px;
+    display: flex;
+    gap: 100px;
+}
+.footertext{
+    color: #fff;
+    
+}
+.footertext1{
+    color: #fff;
+    text-align: right;
+}
+footer{
+    background: #43434f;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+}
+.locationand span{
+    color: #7eb244;
+
+}
+#hamburger{
+    display: none;
+    
+}
+
+#overlay{
+    height: 100%;
+    width: 0%;
+    max-width: 30%;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    right: 0;
+    background-color: rgba(63, 143, 180);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.option1{
+    text-align: center;
+   
+    
+    
+}
+  .boxx  nav ul li{
+    list-style: none;
+    padding: 20px;
+}
+.option1 a{
+    color: white;
+    
+}
+.option1 h4{
+    padding: 20px;
+}
+
+.ii {
+    text-align: right;
+    color: white;
+    
+}
+#close{
+    padding: 37px;
+}
+
+
+
+@media only screen and (max-width: 1200px){
+    .topfooter{
+        display: grid;
+        
+    }
+
+
+}
+
+@media only screen and (max-width: 1060px){
+    .achivements{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width: 740px){
+    
+    .a1{
+        grid-column: span 2;
+    }
+}
+@media only screen and (max-width: 1466px){
+    .ulmenu{
+        display: none;
+    }
+    #hamburger{
+        display: block;
+        padding-right: 130px;
+        width: 30px;
+        height: 24px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 1466px){
+
+    .acimg img {
+        width: 124px;
+    }
+    .acimg {
+        width: 336px;
+    }
+    .achivements p{
+        width: 334px;
+    }
+    .footertext img{
+        width: 233px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #hamburger{
+        padding-right: 50px;
+    }
+    .kvups{
+        margin-left: 50px;
+    }
+    .achivements{
+        padding: 3px;
+    }
+    .fgicon{
+        padding-right: 10px;
+    }
+    .footertext1{
+    width: 219px;
+    text-align: left;
+    }
+    .topfooter img{
+        width: 200px;
+    }
+    .achivements{
+        text-align: -moz-center;
+    
+    }
+    .systext h1 {
+        font-size: 42px;
+      }
+}
+
+
+
+
+
+
+

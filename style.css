@@ -1,0 +1,915 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(230, 230, 230);
+}
+a{
+    text-decoration: none;
+    
+}
+nav ul li a{
+    color: #43434f;
+}
+#hh{
+    background-color: #7eb244;
+    border-radius: 5px;
+    padding: 4px;
+    
+    
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    
+    background: linear-gradient(to right, #7eb244, #43C6AC);
+    
+    
+}
+
+.phone{
+    display: inline;
+    text-align: left;
+    width: 673px;
+    padding-left: 70px;
+  
+}
+.phone img{
+    max-width: 29px;
+    max-height: 24px;
+}
+.fgicon .facebook{
+    max-width: 80px;
+    max-height: 30px;
+    padding-top: 15px;
+
+}
+
+.google{
+    max-width: 40px;
+    max-height: 30px;
+    padding-top: 15px;
+}
+.fgicon{
+    display: inline;
+    text-align: center;
+    padding-right: 150px;
+    
+}
+.phone a{
+    text-decoration: none;
+    display: flex;
+    padding-top: 11px;
+}
+
+.container{
+    display: flex;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 20px rgba(189, 177, 205, 0.2);
+    backdrop-filter: blur(20px);
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 0;
+}
+ nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 164px;
+
+    
+ }
+
+nav ul li{
+    margin-right: 35px;
+    
+    
+    
+}
+nav ul li:last-child{
+    margin-right: 0;
+}
+
+.kvups{
+    color:  #7eb244;
+    margin-left: 100px;
+  
+
+}
+.spotimg{
+    width: 100%;
+    filter:brightness(55%);
+    position: absolute;
+    clip: rect(0px,1850px,559px,0px);
+}
+.fullimg{
+    background-image: url(./images/spotlight-01.jpeg) ;
+    background-size: cover;
+    
+}
+.spottext{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 1px 0;
+    padding: 209px 0;
+    font-weight: bolder;
+    font-size: larger;
+    
+  
+   
+}
+.spottext h1{
+    font-size: 60px;
+}
+.spottext p{
+    font-size: 20px;
+
+}
+.spottext span{
+    color: #7eb244;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+
+}
+.spottext a{
+    color: #fff;
+}
+
+
+.explore{
+    margin: 10px auto;
+    background: linear-gradient(to right, #7eb244, #43C6AC);
+    border-radius: 23px;
+    border: 1px solid #fff;
+    width: 117px;
+    padding: 9px;
+    
+}
+
+
+.about{
+  
+   background: white;
+   display:flex;
+   
+   
+
+}
+.iim img{
+    width: 100%;
+}
+
+.abouttext{
+   text-align: right;
+   padding: 150px;
+}
+.pangode{
+    color: #7eb244;
+}
+
+.ulmenu{
+    text-decoration: none;
+}
+.missionvission{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 170px auto;
+    
+    
+}
+.mission{
+    text-align: center;
+    
+   
+}
+.vission{
+    text-align: center;
+   
+}
+.ourmission{
+    background-image: url(./images/our-mission.jpg);
+    padding: 36px;
+    background-size: cover;
+   
+}
+.ourvision{
+    padding: 36px;
+    background-size: cover;
+    background-image: url(./images/our-vision.jpg)
+    
+
+}
+.gphoto1 img{
+    width: 90%;
+margin-bottom: 20px;
+}
+.our{
+    color: #fff;
+}
+.mv{
+    color: #7eb244;
+}
+.mvparagraph{
+    background-color: #fff;
+    padding: 9px;
+    
+}
+
+
+.accadamictext{
+    margin: 70px;
+}
+.accadamics{
+    display: flex;
+    background-image: url(./images/our-accadamics.jpg);
+}
+
+.systamatic{
+    color: #fff;
+    font-size: 45px;
+    font-family: 'american_captainregular';
+}
+.systamatic span{
+    color: #7eb244;
+}
+.activities{
+    color:#7eb244;
+    font-size: 45px;
+    font-family: 'american_captainregular';
+
+}
+.accadamicsparagraph{
+    color: #fff;
+}
+.readmore{
+    background: linear-gradient(to right, #7eb244, #43C6AC);
+    border-radius: 35px;
+    width: 117px;
+}
+
+.acimg img{
+    width: 200px;
+}
+.byssa span{
+    color: #7eb244;
+    
+}
+
+.achivements{
+    margin: 8px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+
+.acm p{ text-align: justify;}
+.acimg{
+    background-color: rgb(204, 203, 203);
+    display: flex;
+    width: 456px;
+    
+}
+.achivements p{
+    text-align: justify;
+   
+   
+}
+.mission{
+    margin: 30px;
+}
+.vission{
+    margin: 30px;
+}
+.og{
+    color: #fff;
+    text-align: center;
+}
+.og span{
+    color: #7eb244;
+}
+.oa{
+    padding: 123px;
+    
+    text-align: right;
+}
+.oa span{
+    color: #7eb244;
+}
+.ourgallery{
+    padding: 88px;
+}
+/* .gphoto1{
+   display: flex;
+   gap: 30px;
+   
+} */
+.gphoto1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.event img{
+    width: 100%;
+}
+.viewmore{
+    background-color: #7eb244;
+    text-align: center;
+    border-radius: 7px;
+    width: 138px;
+    margin: 12px auto;
+}
+.OSC{
+    background-color: #7eb244;
+    color: #fff;
+    text-align: center;
+    height: 200px;
+}
+.inno{
+    display: flex;
+    padding: 25px;
+}
+.grolious{
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+.grolioustext{
+    text-align: center;
+}
+.grolious img{
+    height: 100px;
+    margin: 12px auto;
+    justify-self: center;
+
+    
+}
+.new{
+    text-align: center;
+    color: #7eb244;
+    margin: 50px auto;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    
+}
+.techies{
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+
+}
+.techies img{
+    height: 100px;
+    margin: 12px auto;
+   
+    
+}
+.nisar{
+    display: flex;
+    background-color: #fff;
+    margin: 70px ;
+}
+.nisar img{
+    height: 120px;
+    
+}
+.testmonial{
+    display: flex;
+}
+.othead{
+    color: #fff;
+    padding: 72px;
+
+}
+.othead span{
+    color: #7eb244;
+}
+.OT1{
+    background-image: url(./images/Testimonials-bg.jpg);
+    background-size: cover;
+}
+
+.eventimage{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.newsevents{
+    text-align: center;
+    margin: 60px;
+    
+}
+.newsevents span{
+    color: #7eb244;
+
+}
+.event{
+    
+    margin: 63px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.eventtext{
+    text-align: center;
+}
+.eventtext h4{
+    text-align: right;
+    color: #7eb244;
+    padding: 72px;
+}
+.eventhead span{
+    color: #7eb244;
+
+
+}
+
+.message{
+    display: flex;
+    background-color: #fff;
+}
+.managers span{
+    color: #7eb244 ;
+}
+.edu{
+    color: #7eb244;
+}
+.managers{
+    text-align: center;
+    
+    padding: 100px;
+}
+.stdc{
+    display: flex;
+    background-image: url(./images/countdown-bg.jpg);
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+.std{
+    margin: 1px auto;
+    border-right: inset;
+    border-right-color: white;
+    border-width: 2px;
+    padding: 40px;
+    width: 300px;
+}
+.facilities{
+    display: flex;
+    
+    padding: 34px;
+    padding: 119px;
+    
+    gap: 109px;
+}
+.facilitiestext{
+    text-align: center;
+    margin: 60px auto;
+}
+.facilitiestext span{
+    color: #7eb244;
+}
+.smart{
+    text-align: center;
+}
+.circle1{
+    height: 75px;
+    width: 75px;
+    background-color:#7eb244;
+    border-radius: 50%;
+    display: inline-block;
+}
+.circle2{
+    height: 75px;
+    width: 75px;
+    background-color:#484653;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.bookpic{
+    
+    background-image: url(./images/acivities.jpg)
+   
+
+}
+.pangodefest{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.festtext{
+    background-color: #fff;
+}
+.ourspan{
+    color: #fff;
+}
+.ourspan span{
+    color: #7eb244;
+}
+.festp{
+    margin: 42px auto;
+}
+.kallara span{
+    color: #7eb244;
+
+}
+.viewmore2{
+    background-color: #7eb244;
+    text-align: center;
+    border-radius: 7px;
+    width: 138px;
+    margin: 12px auto;
+    padding: 8px;
+    color: white;
+
+}
+.event1img{
+    width: 100%;
+}
+.mm{
+    border-radius: 50%;
+    width: 25%;
+}
+.video{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.vdotext {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.vdotext span{
+    color: #7eb244;
+
+}
+.shows{
+    margin: 20px;
+}
+
+.map{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.maplocation iframe{
+    width: 100%;
+    
+}
+.maplocation{width: 100%;}
+.maptext{
+    text-align: right;
+    margin: 28px auto;
+    
+}
+.vparagraph{
+    background-color: #fff;
+    padding: 28px;
+}
+.topfooter{
+    background: linear-gradient(to right, #7eb244, #43C6AC);
+    padding: 60px;
+    display: flex;
+    gap: 100px;
+}
+.footertext{
+    color: #fff;
+    
+}
+.footertext1{
+    color: #fff;
+    text-align: right;
+}
+footer{
+    background: #43434f;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+}
+.locationand span{
+    color: #7eb244;
+
+}
+.phone a{
+    color: #fff;
+}
+.spottext{
+    position: relative;
+    top: 0;
+    width: 100%;
+    animation-name: id;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    
+
+}
+#hamburger{
+    display: none;
+    
+}
+.vds{
+    background-color: #fff;
+}
+.stdclub{
+    margin: 1px auto;
+    border-right: inset;
+    border-right-color: white;
+    border-width: 2px;
+    padding: 40px;
+    
+    
+}
+
+
+
+#overlay{
+    height: 100%;
+    width: 0%;
+    max-width: 30%;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    right: 0;
+    background-color: rgba(63, 143, 180);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.option1{
+    text-align: center;
+   
+    
+    
+}
+  .boxx  nav ul li{
+    list-style: none;
+    padding: 20px;
+}
+.option1 a{
+    color: white;
+    
+}
+.option1 h4{
+    padding: 20px;
+}
+
+.ii {
+    text-align: right;
+    color: white;
+    
+}
+#close{
+    padding: 37px;
+}
+
+
+
+
+
+@keyframes id{  
+    
+    100%{
+    background-image: url(./images/kvups-01.jpeg);
+    background-size: cover;
+}
+}
+
+
+@media only screen and (max-width: 1430px){
+    .ulmenu{
+        display: none;
+    }
+    #hamburger{
+        display: block;
+        padding-right: 40px;
+        width: 30px;
+        height: 24px;
+        
+    }
+    .fgicon{
+        padding-right: 50px;
+    }
+
+}
+@media only screen and (max-width: 1330px){
+    .kidpng{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .topfooter{
+        display: grid;
+        
+    }
+}
+
+@media only screen and (max-width: 1230px){
+    .maptext{
+        grid-column: span 2;}
+        .maplocation{grid-column: span 2;}
+    
+    .eventimage{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+@media only screen and (max-width: 1112px){
+    .pangodefest{
+        display: grid;
+    }
+
+}
+@media only screen and (max-width: 1500px){
+    .about img{
+        display: none;
+           
+    }
+    
+}
+@media only screen and (max-width: 700px){
+    .gphoto1{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .testmonial{
+        display: grid;
+    }
+   
+}
+@media only screen and (max-width: 530px){
+    .missionvission{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+@media only screen and (max-width: 1400px){
+    .achivements{ grid-template-columns: repeat(2,1fr);
+    }
+
+}
+@media only screen and (max-width: 950px){
+    .achivements{ grid-template-columns: repeat(1,1fr);
+
+    }
+    .gphoto1{grid-template-columns: repeat(1,1fr);}
+}
+@media only screen and (max-width: 1400px){
+
+    .facilities{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+    }
+    
+}
+
+@media only screen and (max-width: 1000px){
+    .facilities{
+        grid-template-columns:repeat(1,1fr);
+    }
+    .message{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+    }
+    .inno{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+}
+@media only screen and (max-width: 1150px){
+    .video{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+
+    }
+}
+@media only screen and (max-width: 750px){
+    .video{
+        grid-template-columns:repeat(1,1fr);
+    }
+    .vds{
+        text-align: center;
+    }
+
+}
+@media only screen and (max-width: 832px){
+    .stdc{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media only screen and (max-width: 832px){
+    .stdc{
+    grid-template-columns:repeat(1,1fr);
+    }
+    .std{
+        border-bottom: inset;
+        border-bottom-color: white;
+        border-width: 2px;
+    }
+    .std{
+        border-right: none;
+    }
+    
+    
+    
+
+}
+@media only screen and (max-width: 500px){
+    .oa{
+        padding: 60px;
+    }
+    .acimg img {
+        width: 107px;
+    }
+    .acimg{
+        width: 332px;;
+    }
+    .byssa{
+        width: 34px;
+    }
+    .footertext1 {
+        width: 330px;
+        text-align: center;
+    }
+    .nisar{
+        display: grid;
+    }
+    .nisar p{
+        text-align: center;
+    }
+    .nisar img{
+        margin: 0 auto;
+    }
+    .footertext{
+        text-align: center;
+        width: 280px;
+    
+    }
+}
+@media only screen and (max-width: 510px){
+    .abouttext {
+        padding: 20px;
+      }
+
+}
+@media only screen and (max-width: 371px) {
+
+
+.accadamictext {
+
+    margin: 14px;
+
+}
+.topfooter{
+    padding: 2px;
+}
+.video img{
+    width: 300px;
+}
+    
+}
+@media only screen and (max-width:600px){
+    .facilities{
+        padding: 30px;
+    }
+    .managers {
+        
+        padding: 30px;
+      }
+      .event{
+        margin: 30px;
+      }
+      
+    
+}
+@media only screen and (max-width:950px){
+    .achivements{
+        text-align: -moz-center;
+    }
+    .acm p{
+        text-align: center;
+    }
+    
+    
+}
+@media only screen and (max-width:337px){
+    .footertext1 {
+        width: 250px;
+    }
+}
+
+
+
+
+
+
+    
+
